@@ -1,0 +1,20 @@
+//==============================================================
+// Name : Lab.cpp
+// Author : Kevin Balbuena Montes
+// Version :N/A
+// Copyright :N/A
+// Description : Lab 1, Part 2 from EMT 2410
+//==============================================================
+#include <iostream>
+using namespace std;
+int main()
+{
+int times;
+cout << "Enter an integer: \n";
+cin >> times;
+for (int i = 0;i<times;i++)
+{
+cout << "Hello World!\n";// prints !!!Hello World!!!
+}
+return 0;
+}
