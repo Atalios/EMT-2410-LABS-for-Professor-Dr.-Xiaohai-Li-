@@ -1,14 +1,13 @@
-//=========================================================
-// Name : lab.cpp
-// Author : Kevin Balbuena
-// Version : N/A
-// Copyright : N/A
+//==============================================================
+// Name : Lab.cpp
+// Author :Kevin Balbuena Montes
+// Version :N/A
+// Copyright :N/A
 // Description : Lab 1, Part 1 from EMT 2410
-//=========================================================
-
+//==============================================================
 #include <iostream>
 using namespace std;
-int main() 
+int main()
 {
 for (int i = 0;i<5;i++)
 {
