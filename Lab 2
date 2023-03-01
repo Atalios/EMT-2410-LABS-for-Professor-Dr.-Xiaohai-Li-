@@ -1,0 +1,50 @@
+//============================================================================
+// Name        : Lab.cpp
+// Author      : Kevin Balbuena Montes
+// Version     : N/A
+// Copyright   : N/A
+// Description : Lab 2 for EMT 2410
+//============================================================================
+
+#include <iostream> //
+using namespace std;
+
+int main()
+{
+	float myNums[5];
+	cout<< "Please input 5 random numbers:";
+	for (int i=0; i<5; i++)
+	{
+		cin >> myNums[i];
+	}
+	float myMax = myNums[0]; // Prepare two containers
+	float myMin = myNums[0];
+	for (int i = 0; i < 5; i++)
+		{
+		if (myNums[i] > myMax)
+		{
+			myMax = myNums[i];
+		}
+		else if (myNums[i] < myMin)
+		{
+		myMin = myNums[i];
+	}
+}
+
+char UserInput;
+cout << "please enter 0 for myMin or 9 for myMax:";
+cin >> UserInput;
+switch (UserInput)
+{
+	case '9':
+		cout <<"Max number is " << myMax << endl;
+		break;
+	case '0':
+		cout <<"Min number is " << myMin << endl;
+		break;
+	default:
+		cout << "Invalid input" ;
+		break;
+		}
+	return 0;
+}
